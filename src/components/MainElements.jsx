@@ -21,7 +21,7 @@ function MainElements() {
         <div>Target node</div>
       </div>
       <div>
-        <div className="node"></div>
+        <div className="node-element"></div>
         <div>unvisited node</div>
       </div>
       {/* I will add more elements later */}

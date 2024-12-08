@@ -44,9 +44,21 @@
   text-transform: capitalize;
 }
 
-.node {
+.node-element {
   width: 25px;
   height: 25px;
+  border: 1px solid rgba(0, 0, 255, 0.464);
+}
+
+@media (max-width: 1868px) {
+  .elements-container > div {
+    height: 70px;
+    padding: 8px 0;
+  }
+
+  .elements-container > div > svg {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 768px) {
